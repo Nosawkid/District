@@ -1,0 +1,25 @@
+body {
+  overflow-x: hidden;
+}
+#hero {
+  background-image: url(./Assets/Images/Districts/Kochi-Metro.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  width: 100%;
+}
+
+#hero-container {
+  background-color: rgba(0, 0, 0, 0.223);
+}
+
+#hero-title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media screen and (max-width: 576px) {
+  #hero {
+    height: 40vh;
+  }
+}
